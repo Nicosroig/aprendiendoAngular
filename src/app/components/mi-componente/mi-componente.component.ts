@@ -3,11 +3,7 @@ import { Component } from '@angular/core';
 @Component({
     // tslint:disable-next-line: component-selector
     selector: 'mi-componente',
-    template: `
-        <h1>{{titulo}}</h1> <br>
-        <p>{{comentario}}</p><br>
-        <p>{{year}}</p>
-    `
+    templateUrl: './mi-componente.component.html'
 })
 
 // tslint:disable-next-line: component-class-suffix
